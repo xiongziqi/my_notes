@@ -15,6 +15,15 @@
 
 ## paper note
 
+###[2017-2-20]
+
+[sample_paper](./papers/sample_papers)
+[sample_paper_note](./paper_notes/sample_paper_note.md)
+
 ## book note
+
+## surveys
+
+[sample_survey](./suveys/sample_survey.md)
 
 ## tech note
