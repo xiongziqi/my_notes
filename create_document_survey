@@ -1,0 +1,30 @@
+#!/bin/bash
+# google风格
+
+set -x
+
+if [ ! -f $1 ]
+then
+    touch $1
+else
+    exit
+fi
+
+cat <<EOF > $1
+# Firstly
+
+### keywords
+
+### most cited paper
+
+### common references
+
+### common author
+
+### author web pages
+
+### top conferences papers
+
+### all papers common references
+
+EOF

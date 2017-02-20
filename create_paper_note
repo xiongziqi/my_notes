@@ -1,0 +1,45 @@
+#!/bin/bash
+# google风格
+
+set -x
+
+if [ ! -f $1 ]
+then
+    touch $1
+else
+    exit
+fi
+
+cat <<EOF > $1
+
+# Firstly
+
+### title
+
+### innovation
+
+### category(test|improve|original)
+
+### relate paper
+
+### theoretical principle
+
+### clearly
+
+# Secondly
+
+### keypoint
+
+### questions
+
+### new references
+
+### err charts|diagram|image
+
+# Thirdly
+
+### reproduce
+
+### new thoughts
+
+EOF
