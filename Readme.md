@@ -17,13 +17,26 @@
 
 ###[2017-2-20]
 
-[sample_paper](./papers/sample_papers)
-[sample_paper_note](./paper_notes/sample_paper_note.md)
+>[sample_paper](./papers/sample_papers)
+
+>[sample_paper_note](./paper_notes/sample_paper_note.md)
 
 ## book note
 
+###[2017-2-20]
+
+>[sample_book](./books/sample_book)
+
+>[sample_book_note](./book_notes/sample_book_note.md)
+
 ## surveys
 
-[sample_survey](./suveys/sample_survey.md)
+###[2017-2-20]
+
+>[sample_survey](./suveys/sample_survey.md)
 
 ## tech note
+
+###[2017-2-20]
+
+>[sample_tech_note](./tech_notes/sample_tech_note.md)
