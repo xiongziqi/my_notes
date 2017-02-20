@@ -33,7 +33,7 @@
 
 ###[2017-2-20]
 
->[sample_survey](./suveys/sample_survey.md)
+>[sample_survey](./surveys/sample_survey.md)
 
 ## tech note
 
