@@ -5,38 +5,19 @@
 结构如下：
 ```
 .
-├── book_notes    # 书籍的阅读笔记
-├── books         # 原书籍
-├── paper_notes   # 论文阅读笔记
-├── papers        # 原始论文
-├── surveys       # 文献调研，调研内容链接到具体文献笔记，最后给出调研结论
-└── tech_notes    # 一些技术类的笔记，网摘等
+├── papers   # 原始论文
+└── notes    # 笔记
 ```
 
 ## paper note
 
-###[2017-2-20]
+###[2017-03-06]
+>[论文](./papers/TwitIE_An_Open-Source_Information_Extraction_Pipeline_for_Microblog_Text.pdf)
+>[笔记]("./notes/TwitIE_an_open_source_information_pipeline_for_microblog_text.md")
+该论文基于GATE改进的微博信息抽取
+
+###[2017-02-20]
 
 >[sample_paper](./papers/sample_papers)
 
->[sample_paper_note](./paper_notes/sample_paper_note.md)
-
-## book note
-
-###[2017-2-20]
-
->[sample_book](./books/sample_book)
-
->[sample_book_note](./book_notes/sample_book_note.md)
-
-## surveys
-
-###[2017-2-20]
-
->[sample_survey](./surveys/sample_survey.md)
-
-## tech note
-
-###[2017-2-20]
-
->[sample_tech_note](./tech_notes/sample_tech_note.md)
+>[sample_paper_note](./notes/sample_paper_note.md)
