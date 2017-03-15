@@ -26,6 +26,43 @@
 
 # details
 
+## CoreNLP relate
+
+### segment
+
+#### 分词训练方法
+        ```
+        CRFClassifier crf = new CRFClassifier(props);
+        SeqClassifierFlags flags = new SeqClassifierFlags(props);
+        String serializeTo = flags.serializeToText;
+        crf.train();
+        crf.serializeClassifier(serializeTo);
+        ```
+> **注意**，props是训练所需配置的参数集合，训练分词模型需要准备好如下几个事项：
+> 训练预料，"props"中的"trainFile"字段，已经切分好的文本，以行存储，比如：“我 爱 北京 天安门 。”
+> 词典，"props"中的"setDictionary"字段，除了dict-chris6.ser.gz，还可以添加自定义的词典（人名、地名、机构名）
+> 其他特征词典，"props"中的"sighanCorporaDict"字段，比如单字特征以及非词特征等
+> 其他属性字段请参考 "edu/stanford/nlp/sequences/SeqClassifierFlags.java"中释义
+
+#### 分词调用方法
+        ```
+        Properties props = PropertiesUtils.asProperties(
+                        "model", "data/segment/ctb8.seg.ser.gz",
+                        "sighanCorporaDict", "edu/stanford/nlp/models/segmenter/chinese",
+                        "serDictionary", "edu/stanford/nlp/models/segmenter/chinese/dict-chris6.ser.gz",
+                        "sighanPostProcessing", "true"
+                );
+        CRFClassifier<CoreLabel> segmenter = new CRFClassifier<CoreLabel>(props);
+        segmenter.loadClassifierNoExceptions("data/segment/ctb8.seg.ser.gz", props);
+        String sample1 = "我爱北京天安门"
+        List<String> segmented1 = segmenter.segmentString(sample1);
+        System.out.println(segmented1);
+        ```
+
+### pos-tagger
+
+### ner
+
 # user guide
 
 # note
