@@ -42,3 +42,16 @@ It's designed for:
 
 http://getfirefox.com[Get Firefox]!
 |===
+
+= Hello, AsciiDoc!
+Doc Writer <doc@example.com>
+
+An introduction to http://asciidoc.org[AsciiDoc].
+
+== First Section
+
+* item 1
+* item 2
+
+[source,python]
+print "Hello, World!"
