@@ -26,3 +26,19 @@
 >[sample_paper](./papers/sample_papers)
 
 >[sample_paper_note](./notes/sample_paper_note.md)
+
+
+[cols="2,2,5a"]
+|===
+|Firefox
+|Browser
+|Mozilla Firefox is an open-source web browser.
+
+It's designed for:
+
+* standards compliance
+* performance
+* portability
+
+http://getfirefox.com[Get Firefox]!
+|===
